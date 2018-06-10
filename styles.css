@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+body,html{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#app{
+    width: 70%;
+    margin:50px auto;
+    background:blue;
+    padding:5vw;
+    border-radius: 15px;
+    box-shadow: 0 0 1vw;
+}
+h1{
+    margin-top:-5px;
+    color:white;
+}
+#newtask{
+    width:100%;
+    margin:0;
+    padding:0;
+}
+input[type="text"]{
+    width:75%;
+    padding:10px 1vw;
+    margin:0;
+    border-radius:5px;
+    box-sizing: border-box;
+    font-size:1em;
+}
+#add-button{
+    float:right;
+    text-align:center;
+    border-radius:5px;
+    width:23%;
+    margin:3px 0 0 0;
+    padding:8px 0;
+    background:rgb(192, 192, 240);
+    border:none;
+    font:inherit;
+}
+#add-button:hover{
+    background: yellow;
+}
+li{
+    line-height: -2px;
+    padding:10px;
+    box-sizing: border-box;
+    border-radius:5px;
+    margin-top:5px;
+}
+.text{
+    display: inline-block;
+    width:70%;
+    word-wrap:break-word; 
+}
+ol{
+    padding:0.5vw;
+    list-style: none;
+    background:white;
+    border-radius:10px;
+}
+.delete{
+    float:right;
+    border-radius:5px;
+    width:20%;
+    margin-top:-4px; 
+    padding:6px 2vw;
+    background:rgb(192, 192, 240);
+    border:none;
+    font:inherit;
+}
+.delete:hover{
+    background: yellow;
+}
+input[type="checkbox"]{
+    padding:0;
+    margin:0px 0.5vw ;
+    content:"";
+    width:18px;
+    height:18px;
+}
+.done{
+    background: rgb(46, 165, 159);
+    text-decoration: line-through;
+}
+.done button:hover{
+    background: yellow;    
+}
+h3{
+    text-align: right;
+    color:white;
+    margin-bottom:-15px;
+}

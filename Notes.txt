@@ -1,0 +1,23 @@
+
+
+// function del(object){
+//     console.log(object)
+//     object
+// }
+/*
+$( "table" ).on( "click", "td", function()  is same as
+$( "table" ).delegate( "td", "click", function()
+There is a difference between them!!!! of this function.
+In the former this will be the clicked cell and in the latter the 
+this corresponds to the table object. 
+
+For adding event listeners after modifying dom-
+$('.Parent').change(function(){
+    addeventlisteners()
+})
+for checkbox .val()=='on' and .is(":checked") both are valid
+input[type=text]
+or input[type="text"] in jquery, both are valid
+deletion in js is difficullt without jquery
+text not text() can nto be used with inputs!!!
+*/
